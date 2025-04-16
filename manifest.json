@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Colab C++ Step Runner",
+    "version": "0.1.0",
+    "description": "Adds buttons to generate C++ write, compile, and run commands for Colab cells.",
+    "permissions": [
+      "scripting",
+      "activeTab",
+      "clipboardWrite" 
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://colab.research.google.com/*"],
+        "js": ["content_step.js"], 
+        "css": ["styles_step.css"]
+      }
+    ]
+  }
