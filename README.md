@@ -11,6 +11,8 @@ Running C++ code in Google Colab typically requires manually typing a sequence o
 
 This can be tedious, especially when learning C++, testing small snippets frequently, or working alongside tutorials/notes where you want quick feedback. This extension aims to streamline this process.
 
+![screenshot](https://github.com/Dhiman-Ajay/colab-cpp-runner/blob/217fb1df69f97a2ddb90c3e148c29a2fa45cbce1/cppcolab.png)
+
 ## Features
 
 *   Adds three buttons to the toolbar of each **Code Cell** in Google Colab:
